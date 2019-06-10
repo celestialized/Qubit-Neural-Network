@@ -29,9 +29,12 @@ the output states of the model.
 
 ## Qubit neuron
 *The Qubit neuron model is a neuron model inspired by quantum physics and quantum computing: its neuron states are connected to quantum states, and transitions between neuron states are based on operations derived from quantum logic gates.*
-<img src="docs/images/article/neuron.png" alt="neuron" align="center"/>  
-<img src="docs/images/article/complex.png" alt="complex" align="center"/>  
-<img src="docs/images/article/output.png" alt="output" align="center"/>  
+<p align="center">
+<img src="docs/images/article/neuron.png" alt="neuron"/></p>
+<p align="center">
+<img src="docs/images/article/complex.png" alt="complex"/></p>
+<p align="center">
+<img src="docs/images/article/output.png" alt="output"/></p>
 
 ## Implementation
 The core of the implementation lies in the *forward* function. It takes the real-valued vector *fi_in* that corresponds to the phase given from the previous layer and transforms it according to the given algorithm.  
