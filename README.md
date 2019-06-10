@@ -29,9 +29,9 @@ the output states of the model.
 
 ## Qubit neuron
 *The Qubit neuron model is a neuron model inspired by quantum physics and quantum computing: its neuron states are connected to quantum states, and transitions between neuron states are based on operations derived from quantum logic gates.*
-<img src="docs/images/article/neuron.png" alt="neuron"/>  
-<img src="docs/images/article/complex.png" alt="complex"/>  
-<img src="docs/images/article/output.png" alt="output"/>  
+<img src="docs/images/article/neuron.png" alt="neuron" align="center"/>  
+<img src="docs/images/article/complex.png" alt="complex" align="center"/>  
+<img src="docs/images/article/output.png" alt="output" align="center"/>  
 
 ## Implementation
 The core of the implementation lies in the *forward* function. It takes the real-valued vector *fi_in* that corresponds to the phase given from the previous layer and transforms it according to the given algorithm.  
@@ -83,19 +83,19 @@ Accuracy by iteration for **dense net** with the same number of units:
 
 Accuracy by iteration for **qubit net** with the same number of units:  
 (one of the runs got stuck)  
-<img src="docs/images/accuracy/qubit.png" alt="qubit accuracy"/>  
+<img src="docs/images/accuracy/complex.png" alt="complex accuracy"/>  
 
 ## Weights visualization
-Layer 0 Imaginary part:  
+#### Layer 0 Imaginary part:  
 <img src="docs/images/weights/layer_0_im.png" alt="layer_0_im weights"/>  
 
-Layer 0 Real part:  
+#### Layer 0 Real part:  
 <img src="docs/images/weights/layer_0_re.png" alt="layer_0_re weights"/>  
 
-Layer 2 Imaginary part:  
+#### Layer 2 Imaginary part:  
 <img src="docs/images/weights/layer_2_im.png" alt="layer_2_im weights"/>  
 
-Layer 2 Real part:  
+#### Layer 2 Real part:  
 <img src="docs/images/weights/layer_2_re.png" alt="layer_2_re weights"/>  
 
 ## Conclusion
